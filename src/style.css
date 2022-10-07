@@ -1,0 +1,21 @@
+.card img {
+    
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 5
+    0px;
+    grid-gap: 50px;
+  }
+  .grid-item {
+    background-color: rgba(177, 98, 251, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
